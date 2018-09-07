@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference android:title="Fonts"
+        android:key="fontList"
+        android:summary="Select Font..."
+        android:entries="@array/fontList"
+        android:entryValues="@array/fontListValues"
+        />
+
+    <ListPreference android:title="Background"
+        android:key="backgroundList"
+        android:summary="Select Background..."
+        android:entries="@array/backgroundList"
+        android:entryValues="@array/backgroundListValues"
+        />
+
+    <CheckBoxPreference android:title="Show/Hide Start Screne"
+          android:key="checkBox"
+          android:defaultValue="true"
+          android:summary="Show Start Screen"/>
+
+    <SwitchPreference android:title="Start up Sound."
+        android:key="switchBox"
+        android:defaultValue="true"
+        android:summary="Start sound setting..."/>
+
+       <ListPreference android:title="Start up Sound"
+        android:key="SoundList"
+        android:summary="Select Tone..."
+        android:entries="@array/SongList"
+        android:entryValues="@array/SongListValues"/>
+
+      <!---> <EditTextPreference android:title="Start up delay..."
+        android:summary="Start up delay setting."
+        android:key="timeDelay"/>
+       <!-->
+</PreferenceScreen>

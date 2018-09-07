@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The Simple Interset calculator is made by Ajay Shah.The main aim of this App is to make the Simple Interset calculation easier.Mr. Ajay Shah is a student in IPEC.He was studing their from august 2014 and now is in 3'rd(CSE) year.\n\n"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:typeface="serif" />
+</LinearLayout>

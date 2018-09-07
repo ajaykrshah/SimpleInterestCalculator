@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fontList">
+        <item>Font 1</item>
+        <item>Font 2</item>
+        <item>Font 3</item>
+        <item>Font 4</item>
+        <item>Font 5</item>
+        <item>Font 6</item>
+        <item>Font 7</item>
+        <item>Font 8</item>
+    </string-array>
+
+    <string-array name="fontListValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+
+    <string-array name="backgroundList">
+        <item>bg 1</item>
+        <item>bg 2</item>
+      </string-array>
+
+    <string-array name="backgroundListValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="SongList">
+        <item>Sound 1</item>
+        <item>Sound 2</item>
+    </string-array>
+
+    <string-array name="SongListValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+
+</resources>
